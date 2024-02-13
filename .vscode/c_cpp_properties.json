@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/code/**",
+                "${workspaceFolder}/code/UGE/**",
+                "${workspaceFolder}/code/Shaders/**",
+                "${workspaceFolder}/code/Platform/**",
+                "${workspaceFolder}/code/Platform/EnkiTS/**",
+                "${workspaceFolder}/code/Platform/Graphics/**",
+                "${workspaceFolder}/code/Platform/ImGui/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.22621.0",
+            "compilerPath": "cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64"
+        }
+    ],
+    "version": 4
+}
